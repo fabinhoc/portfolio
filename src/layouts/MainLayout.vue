@@ -17,6 +17,8 @@
               :icon="$q.dark.mode ? 'light_mode' : 'dark_mode'"
               fab-mini
               flat
+              @click="toggleTheme"
+              dark
             ></q-btn>
           </div>
           <p :class="$q.platform.is.mobile ? 'text-h5 q-mb-none' : 'text-h2'">
@@ -34,32 +36,37 @@
         </div>
       </q-img>
     </div>
-    <q-page-container class="container relative-position">
-      <div class="row justify-center">
-        <q-avatar
-          :size="$q.platform.is.mobile ? '80px' : '200px'"
-          :style="
-            $q.platform.is.mobile ? 'margin-top: -30px' : 'margin-top: -80px'
-          "
-        >
-          <img src="profile.jpeg" />
-        </q-avatar>
-      </div>
+    <q-page-container>
       <router-view />
     </q-page-container>
   </q-layout>
 </template>
 
-<script setup lang="ts">
-defineOptions({
+<script lang="ts">
+import { useQuasar } from 'quasar';
+import useMode from 'src/composables/useMode';
+import { defineComponent, onMounted } from 'vue';
+
+export default defineComponent({
   name: 'MainLayout',
+  setup() {
+    const $q = useQuasar();
+    const mode = useMode();
+
+    onMounted(() => {
+      mode.setMode();
+    });
+
+    const toggleTheme = () => {
+      $q.dark.toggle();
+      mode.setMode();
+    };
+
+    return {
+      toggleTheme,
+    };
+  },
 });
 </script>
 
-<style scoped>
-.container {
-  border-radius: 25px 25px 0px 0px;
-  margin-top: -40px;
-  background-color: #171923;
-}
-</style>
+<style lang="scss" scoped></style>

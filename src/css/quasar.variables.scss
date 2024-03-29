@@ -12,14 +12,43 @@
 // to match your app's branding.
 // Tip: Use the "Theme Builder" on Quasar's documentation website.
 
-$primary   : #1976D2;
-$secondary : #26A69A;
-$accent    : #9C27B0;
+$border-radius-card: 15px;
 
-$dark      : #1D1D1D;
-$dark-page : #121212;
+$primary: #ffffff;
+$secondary: #8e8e8e;
+$info: #000000;
+$accent: #f13c2f;
 
-$positive  : #21BA45;
-$negative  : #C10015;
-$info      : #31CCEC;
-$warning   : #F2C037;
+$primary-light: #ffffff;
+$secondary-light: #8e8e8e;
+$info-light: #000000;
+$accent-light: #f13c2f;
+$light-page: #ffffff;
+$border-light-color: #c9c9c9;
+
+$primary-dark: #232635;
+$secondary-dark: #40455f;
+$info-dark: #ffffff;
+$accent-dark: #f13c2f;
+$dark-page: #171923;
+
+.portfolio-radio {
+  border-radius: $border-radius-card $border-radius-card $border-radius-card
+    $border-radius-card;
+}
+
+.portfolio-text {
+  font-size: 12px;
+}
+
+.portfolio-subtitle {
+  font-size: 13px;
+}
+
+.bg-dark-page {
+  background: $dark-page !important;
+}
+
+.bg-light-page {
+  background: $light-page !important;
+}
