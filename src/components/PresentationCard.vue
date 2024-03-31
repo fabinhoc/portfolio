@@ -3,25 +3,24 @@
     <q-card-section class="portfolio-text text-weight-regular text-info">
       <p>Olá,</p>
       <p>
-        Meu nome é Fabio, sou profissional especializado em engenharia de
-        software, atuando no setor de tecnologia desde 2014. Possuo formação em
-        Bacharelado em Sistemas de Informação pela Universidade de Franca,
-        concluído em 2014 na cidade de Franca.
+        Sou Fabio, um profissional de engenharia de software com mais de uma
+        década de experiência em tecnologia. Meu conhecimento e habilidades
+        foram moldados por uma formação sólida em Bacharelado em Sistemas de
+        Informação pela Universidade de Franca, finalizada em 2014.
       </p>
       <p>
-        Ao longo da minha carreira, acumulei experiência diversificada como
-        desenvolvedor fullstack em diversos setores de mercado. Trabalhei em
-        projetos que abrangem desde portais de notícias até áreas
-        administrativas de empresas multinacionais, passando por startups
-        focadas em mídias sociais e organizações do nicho de saúde. Além disso,
-        participei de vários trabalhos como freelancer, ampliando ainda mais
-        minha visão e habilidades.
+        Durante minha trajetória, adquiri uma ampla gama de experiências como
+        desenvolvedor fullstack, atuando em diversos setores do mercado. Desde
+        portais de notícias até sistemas administrativos de empresas
+        multinacionais, e até mesmo startups focadas em mídias sociais e
+        organizações de saúde. Além disso, minha experiência como freelancer me
+        permitiu desenvolver uma visão ampla e adaptável, pronta para enfrentar
+        qualquer desafio.
       </p>
       <p>
         Atualmente, ocupo a posição de desenvolvedor sênior, e estou determinado
-        a levar minha carreira a novos patamares de excelência. Abaixo, destaco
-        algumas das principais áreas com as quais trabalhei e continuo
-        aprimorando:
+        a levar minha carreira a novos patamares de excelência. Aqui estão
+        algumas das áreas em que me destaco e continuo a aprimorar:
       </p>
       <ul>
         <li>Desenvolvimento Front-end</li>
@@ -30,9 +29,10 @@
         <li>Outras habilidades e ferramentas</li>
       </ul>
       <p>
-        Estou entusiasmado em continuar a contribuir para projetos desafiadores
-        e colaborar com equipes dinâmicas enquanto busco oportunidades que
-        impulsionem meu crescimento profissional.
+        Estou entusiasmado em continuar contribuindo para projetos desafiadores
+        e colaborar com equipes dinâmicas. Estou aberto a oportunidades que me
+        permitam crescer profissionalmente e aplicar minhas habilidades para
+        impulsionar o sucesso de seus projetos.
       </p>
     </q-card-section>
   </PortfolioCard>

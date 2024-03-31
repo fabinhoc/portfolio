@@ -52,3 +52,12 @@ $dark-page: #171923;
 .bg-light-page {
   background: $light-page !important;
 }
+
+.link {
+  cursor: pointer;
+}
+
+.link:hover {
+  color: $accent !important;
+  text-decoration: underline;
+}

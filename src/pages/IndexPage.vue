@@ -22,7 +22,9 @@ import { defineComponent } from 'vue';
     <TitleSectionVue :title="'Habilidades'" />
     <SkillCard />
     <TitleSectionVue :title="'Experiências'" />
-    <ExperienceCard />
+    <ExperienceTimeline />
+    <TitleSectionVue :title="'Cerficações'" />
+    <ListCertification />
   </q-page>
 </template>
 
@@ -31,7 +33,8 @@ import { defineComponent } from 'vue';
 import PresentationCardVue from 'src/components/PresentationCard.vue';
 import TitleSectionVue from 'src/components/TitleSection.vue';
 import SkillCard from 'src/components/SkillCard.vue';
-import ExperienceCard from 'src/components/ExperienceCard.vue';
+import ExperienceTimeline from 'src/components/ExperienceTimeline.vue';
+import ListCertification from 'src/components/ListCertification.vue';
 
 export default defineComponent({
   name: 'IndexPage',
@@ -39,7 +42,8 @@ export default defineComponent({
     PresentationCardVue,
     TitleSectionVue,
     SkillCard,
-    ExperienceCard,
+    ExperienceTimeline,
+    ListCertification,
   },
 });
 </script>

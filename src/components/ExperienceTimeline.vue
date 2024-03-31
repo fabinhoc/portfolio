@@ -62,7 +62,7 @@ import { useQuasar } from 'quasar';
 import { TimelineLayoutEnum } from 'src/types/enums/TimelineLayout.enum';
 
 export default defineComponent({
-  name: 'ExperienceCard',
+  name: 'ExperienceTimeline',
   setup() {
     const experiences: Ref<Experience[]> = ref([]);
     const expandDescription: Ref<number[]> = ref([]);

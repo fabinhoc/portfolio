@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Boas Práticas no Laravel",
+    "educational_institution": "Beer and Code",
+    "conclusion_date": "Mar de 2024",
+    "file": "/certificates/boas-praticas-no-laravel.png"
+  },
+  {
+    "title": "PHP para o Laravel",
+    "educational_institution": "Beer and Code",
+    "conclusion_date": "Mar de 2024",
+    "file": "/certificates/php-para-o-laravel.png"
+  },
+  {
+    "title": "Clean Architecture",
+    "educational_institution": "Branas.io",
+    "conclusion_date": "Jan de 2023",
+    "file": "/certificates/clean-architecture.png"
+  },
+  {
+    "title": "HTTP: Entendendo a web por debaixo dos panos",
+    "educational_institution": "Alura",
+    "conclusion_date": "Jul de 2021",
+    "file": "/certificates/http-entendendo-a-web-por-debaixo-dos-panos.png"
+  },
+  {
+    "title": "PHP Composer: Dependências, Autoload e Publicação",
+    "educational_institution": "Alura",
+    "conclusion_date": "Jul de 2021",
+    "file": "/certificates/php-composer-dependencias-autoload-e-publicacao.png"
+  },
+  {
+    "title": "REST com NodeJS: API com Express e MYSQL",
+    "educational_institution": "Alura",
+    "conclusion_date": "Jul de 2021",
+    "file": "/certificates/rest-com-nodejs-api-com-express-e-mysql.png"
+  },
+  {
+    "title": "NestJS: Criando uma API REST com TypeScript",
+    "educational_institution": "Alura",
+    "conclusion_date": "Jul de 2021",
+    "file": "/certificates/nestjs-criando-uma-api-rest-com-typescript.png"
+  },
+  {
+    "title": "TypeScript parte 2: Mais técnicas e boas práticas",
+    "educational_institution": "Alura",
+    "conclusion_date": "Jul de 2021",
+    "file": "/certificates/typescript-parte-2-mais-tecnicas-e-boas-praticas.png"
+  },
+  {
+    "title": "Plataforma e-commerce: decisões no começo de sua loja virtual",
+    "educational_institution": "Alura",
+    "conclusion_date": "Mai de 2021",
+    "file": "/certificates/plataforma-ecommerce-decisoes-no-começo-de-sua-loja-virtual.png"
+  },
+  {
+    "title": "Kubernetes: Deployments, Volumes e Escalabilidade",
+    "educational_institution": "Alura",
+    "conclusion_date": "Mar de 2021",
+    "file": "/certificates/kubernetes-deployments-volumes-escalabilidade.png"
+  },
+  {
+    "title": "Kubernetes: Pods, Services e ConfigMaps",
+    "educational_institution": "Alura",
+    "conclusion_date": "Mar de 2021",
+    "file": "/certificates/kubernetes-pods-services-configmaps.png"
+  },
+  {
+    "title": "Laravel parte 3: Eventos, filas, upload e e-mail",
+    "educational_institution": "Alura",
+    "conclusion_date": "Mar de 2021",
+    "file": "/certificates/laravel-parte-3-eventos-filas-upload-e-email.png"
+  },
+  {
+    "title": "SOLID com PHP: Princípios da programação orientada a objetos",
+    "educational_institution": "Alura",
+    "conclusionDate": "Mar de 2021",
+    "file": "/certificates/solid-com-php-principios-da-programacao-orientada-a-objetos.png"
+  },
+  {
+    "title": "MEAN Stack: desenvolvimento de aplicações com Mongodb, Express e Angular 1",
+    "educational_institution": "Udemy",
+    "conclusionDate": "Jan de 2018",
+    "file": "/certificates/mean-stack-desenvolvimento-de-aplicacoes-com-mongodb-express-e-angular-1.jpg"
+  },
+  {
+    "title": "Treinamento: SAP Foundation (Formação KeyUser SAP nas principais transações dos módulos: PP, MM, SD)",
+    "educational_institution": "MDL Consulting",
+    "conclusionDate": "Jan de 2014",
+    "file": ""
+  }
+]
