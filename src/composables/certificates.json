@@ -74,19 +74,19 @@
   {
     "title": "SOLID com PHP: Princípios da programação orientada a objetos",
     "educational_institution": "Alura",
-    "conclusionDate": "Mar de 2021",
+    "conclusion_date": "Mar de 2021",
     "file": "/certificates/solid-com-php-principios-da-programacao-orientada-a-objetos.png"
   },
   {
     "title": "MEAN Stack: desenvolvimento de aplicações com Mongodb, Express e Angular 1",
     "educational_institution": "Udemy",
-    "conclusionDate": "Jan de 2018",
+    "conclusion_date": "Jan de 2018",
     "file": "/certificates/mean-stack-desenvolvimento-de-aplicacoes-com-mongodb-express-e-angular-1.jpg"
   },
   {
     "title": "Treinamento: SAP Foundation (Formação KeyUser SAP nas principais transações dos módulos: PP, MM, SD)",
     "educational_institution": "MDL Consulting",
-    "conclusionDate": "Jan de 2014",
+    "conclusion_date": "Jan de 2014",
     "file": ""
   }
 ]

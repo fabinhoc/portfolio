@@ -19,10 +19,7 @@
             {{ certification.title }}
           </p>
           <span class="portfolio-subtitle text-secondary">{{
-            certification.educational_institution
-          }}</span>
-          <span class="portfolio-subtitle text-secondary">{{
-            certification.conclusion_date
+            `${certification.educational_institution} - ${certification.conclusion_date}`
           }}</span>
         </div>
       </div>

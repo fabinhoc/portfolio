@@ -25,6 +25,8 @@ import { defineComponent } from 'vue';
     <ExperienceTimeline />
     <TitleSectionVue :title="'Cerficações'" />
     <ListCertification />
+    <TitleSectionVue :title="'Github'" />
+    <ListRepositories />
   </q-page>
 </template>
 
@@ -35,6 +37,7 @@ import TitleSectionVue from 'src/components/TitleSection.vue';
 import SkillCard from 'src/components/SkillCard.vue';
 import ExperienceTimeline from 'src/components/ExperienceTimeline.vue';
 import ListCertification from 'src/components/ListCertification.vue';
+import ListRepositories from 'src/components/ListRepositories.vue';
 
 export default defineComponent({
   name: 'IndexPage',
@@ -44,6 +47,7 @@ export default defineComponent({
     SkillCard,
     ExperienceTimeline,
     ListCertification,
+    ListRepositories,
   },
 });
 </script>

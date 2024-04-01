@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Minhas finanças",
+    "description": "Projeto pessoal, dedicado para criar um controle financeiro com lançamentos de despesas e controle de pagamentos.",
+    "link": "https://github.com/fabinhoc/my-finance-web",
+    "tags": ["Vuejs", "Quasar Framework", "Javascript"]
+  },
+  {
+    "title": "Minhas finanças API Rest",
+    "description": "Desenvolvimento da API REST para o projeto minhas finanças.",
+    "link": "https://github.com/fabinhoc/faccount",
+    "tags": ["Laravel 10", "Postgress", "Docker"]
+  },
+  {
+    "title": "Template API Authentication blueprint",
+    "description": "Template Laravel desenvolvido com autenticação completa com API REST",
+    "link": "https://github.com/fabinhoc/lavarel-api-auth-blueprint",
+    "tags": ["Laravel 10", "Laravel Sanctum", "Laravel Sail", "Docker"]
+  }
+]
