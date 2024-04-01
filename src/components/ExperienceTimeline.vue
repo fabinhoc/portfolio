@@ -60,6 +60,7 @@ import {
 } from 'vue';
 import { useQuasar } from 'quasar';
 import { TimelineLayoutEnum } from 'src/types/enums/TimelineLayout.enum';
+import jsonData from 'src/assets/experiences.json';
 
 export default defineComponent({
   name: 'ExperienceTimeline',
@@ -74,8 +75,7 @@ export default defineComponent({
     });
 
     onMounted(async () => {
-      const response = await fetch('src/statics/experiences.json');
-      experiences.value = await response.json();
+      experiences.value = jsonData;
 
       if (!$q.platform.is.mobile) {
         experiences.value.map((exp, index) =>

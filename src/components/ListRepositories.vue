@@ -33,6 +33,7 @@ import RepositoryCard from 'src/components/RepositoryCard.vue';
 import { Repository } from 'src/types/Repository';
 import { ref } from 'vue';
 import { Ref } from 'vue';
+import jsonData from 'src/assets/repositories.json';
 
 export default defineComponent({
   name: 'ListRepositories',
@@ -43,8 +44,7 @@ export default defineComponent({
     const repositories: Ref<Repository[]> = ref([]);
 
     onMounted(async () => {
-      const response = await fetch('src/statics/repositories.json');
-      repositories.value = await response.json();
+      repositories.value = jsonData;
     });
 
     return {

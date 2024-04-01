@@ -14,6 +14,7 @@
 import { Ref, defineComponent, onMounted, ref } from 'vue';
 import CertificationCard from 'src/components/CertificationCard.vue';
 import { Certfication } from 'src/types/Certification';
+import jsonData from 'src/assets/certificates.json';
 
 export default defineComponent({
   name: 'ListCertification',
@@ -24,8 +25,7 @@ export default defineComponent({
     const certificates: Ref<Certfication[]> = ref([]);
 
     onMounted(async () => {
-      const response = await fetch('src/statics/certificates.json');
-      certificates.value = await response.json();
+      certificates.value = jsonData;
     });
 
     return {
