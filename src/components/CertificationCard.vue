@@ -16,6 +16,7 @@
             class="portfolio-subtitle text-info q-mb-none link"
             @click="dialog = true"
           >
+            <q-icon name="link" size="13px" style="margin-top: -2px"></q-icon>
             {{ certification.title }}
           </p>
           <span class="portfolio-subtitle text-secondary">{{

@@ -38,7 +38,26 @@
     </div>
     <q-page-container>
       <router-view />
+      <q-page-sticky position="bottom-right" :offset="[18, 18]">
+        <q-btn
+          @click="scrollToTop"
+          fab
+          icon="expand_less"
+          color="accent"
+          padding="sm"
+        />
+      </q-page-sticky>
     </q-page-container>
+
+    <q-footer
+      :reveal="true"
+      class="row justify-evenly items-center q-col-gutter-xs text-center q-pa-sm text-info"
+    >
+      <div class="col-12">
+        <p class="portifolio-subtitle">&copy; 2024</p>
+      </div>
+      <SocialButton />
+    </q-footer>
   </q-layout>
 </template>
 
@@ -46,9 +65,13 @@
 import { useQuasar } from 'quasar';
 import useMode from 'src/composables/useMode';
 import { defineComponent, onMounted } from 'vue';
+import SocialButton from 'src/components/SocialButton.vue';
 
 export default defineComponent({
   name: 'MainLayout',
+  components: {
+    SocialButton,
+  },
   setup() {
     const $q = useQuasar();
     const mode = useMode();
@@ -62,8 +85,16 @@ export default defineComponent({
       mode.setMode();
     };
 
+    const scrollToTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth', // Para um comportamento de scroll suave
+      });
+    };
+
     return {
       toggleTheme,
+      scrollToTop,
     };
   },
 });

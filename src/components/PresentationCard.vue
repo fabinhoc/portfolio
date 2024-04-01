@@ -35,17 +35,27 @@
         impulsionar o sucesso de seus projetos.
       </p>
     </q-card-section>
+    <q-card-section>
+      <div class="col-12">
+        <p class="portfolio-text text-weight-regular text-info">
+          Entre em contato:
+        </p>
+      </div>
+      <SocialButton />
+    </q-card-section>
   </PortfolioCard>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
 import PortfolioCard from 'src/components/PortfolioCard.vue';
+import SocialButton from './SocialButton.vue';
 
 export default defineComponent({
   name: 'PresentationCard',
   components: {
     PortfolioCard,
+    SocialButton,
   },
 });
 </script>

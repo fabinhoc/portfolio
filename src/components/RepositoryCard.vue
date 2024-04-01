@@ -20,7 +20,7 @@
             <q-icon
               name="fa-solid fa-arrow-up-right-from-square"
               size="10px"
-              style="margin-top: -5px"
+              style="margin-top: -2px"
             ></q-icon>
             {{ repository.title }}
           </a>
