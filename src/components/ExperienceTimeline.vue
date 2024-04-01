@@ -74,7 +74,7 @@ export default defineComponent({
     });
 
     onMounted(async () => {
-      const response = await fetch('src/assets/experiences.json');
+      const response = await fetch('src/statics/experiences.json');
       experiences.value = await response.json();
 
       if (!$q.platform.is.mobile) {

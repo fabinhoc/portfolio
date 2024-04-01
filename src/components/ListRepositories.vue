@@ -43,7 +43,7 @@ export default defineComponent({
     const repositories: Ref<Repository[]> = ref([]);
 
     onMounted(async () => {
-      const response = await fetch('src/assets/repositories.json');
+      const response = await fetch('src/statics/repositories.json');
       repositories.value = await response.json();
     });
 

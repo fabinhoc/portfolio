@@ -24,7 +24,7 @@ export default defineComponent({
     const certificates: Ref<Certfication[]> = ref([]);
 
     onMounted(async () => {
-      const response = await fetch('src/assets/certificates.json');
+      const response = await fetch('src/statics/certificates.json');
       certificates.value = await response.json();
     });
 
