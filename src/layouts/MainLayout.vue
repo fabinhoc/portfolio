@@ -99,6 +99,10 @@ export default defineComponent({
             return title;
           },
         },
+        link: {
+          rel: 'canonical',
+          href: 'https://www.fabiocruz.netlify.app/',
+        },
       },
 
       // CSS tags
