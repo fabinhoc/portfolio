@@ -5,7 +5,7 @@
       :style="$q.platform.is.mobile ? 'height: 250px' : 'height: 600px'"
     >
       <q-img
-        src="bg-header-2.jpg"
+        src="bg-header-4.jpg"
         :style="$q.platform.is.mobile ? 'height: 250px' : 'height: 600px'"
       >
         <div class="absolute-full column flex flex-center">

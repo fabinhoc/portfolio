@@ -1,7 +1,7 @@
 <template>
   <div class="col-12 q-col-gutter-md text-info">
     <q-btn
-      href="https://www.linkedin.com/in/fabio-cardoso-costa-cruz-88679474/"
+      href="https://www.linkedin.com/in/fabio--cruz"
       fab
       flat
       size="sm"

@@ -9,12 +9,12 @@ import { defineComponent } from 'vue';
   >
     <div class="row column justify-center items-center q-mb-md">
       <q-avatar
-        :size="$q.platform.is.mobile ? '80px' : '200px'"
+        :size="$q.platform.is.mobile ? '90px' : '150px'"
         :style="
           $q.platform.is.mobile ? 'margin-top: -50px' : 'margin-top: -100px'
         "
       >
-        <img src="profile.jpeg" />
+        <img src="profile-2.jpeg" />
       </q-avatar>
     </div>
     <TitleSectionVue :title="'Sobre mim'" />

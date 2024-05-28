@@ -1,5 +1,11 @@
 [
   {
+    "title": "Formação MALT - Especialista Laravel",
+    "educational_institution": "Beer and Code",
+    "conclusion_date": "Mai de 2024",
+    "file": "/certificates/formacao-malt-especialista-laravel.png"
+  },
+  {
     "title": "Boas Práticas no Laravel",
     "educational_institution": "Beer and Code",
     "conclusion_date": "Mar de 2024",
