@@ -21,18 +21,18 @@
               dark
             ></q-btn>
           </div>
-          <p :class="$q.platform.is.mobile ? 'text-h5 q-mb-none' : 'text-h2'">
+          <h1 :class="$q.platform.is.mobile ? 'text-h5 q-mb-none' : 'text-h2'">
             Fabio Cardoso Costa Cruz
-          </p>
-          <p
+          </h1>
+          <h2
             :class="
               $q.platform.is.mobile
                 ? 'text-caption text-weight-light'
                 : 'text-h5 text-weight-light'
             "
           >
-            Engenheiro de software | Desenvolvedor web
-          </p>
+            Programador Fullstack
+          </h2>
         </div>
       </q-img>
     </div>
@@ -62,7 +62,7 @@
 </template>
 
 <script lang="ts">
-import { useQuasar } from 'quasar';
+import { useMeta, useQuasar } from 'quasar';
 import useMode from 'src/composables/useMode';
 import { defineComponent, onMounted } from 'vue';
 import SocialButton from 'src/components/SocialButton.vue';
@@ -73,6 +73,69 @@ export default defineComponent({
     SocialButton,
   },
   setup() {
+    const metaData = {
+      // sets document title
+      title: 'Fabio Cruz - Programador Fullstack',
+      titleTemplate: (title: string) => `${title}`,
+      // meta tags
+      meta: {
+        description: {
+          name: 'description',
+          content:
+            'Profissional de tecnologia de informação com mais de uma década de experiência. Bacharelado em SI. Ampla experiência com desenvolvimento de software.',
+        },
+        keywords: {
+          name: 'keywords',
+          content:
+            'Desenvolvedor de software, Programador, software developer, fullstack developer',
+        },
+        equiv: {
+          'http-equiv': 'Content-Type',
+          content: 'text/html; charset=UTF-8',
+        },
+        ogTitle: {
+          property: 'og:title',
+          template(title: string) {
+            return title;
+          },
+        },
+      },
+
+      // CSS tags
+      link: {
+        material: {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/icon?family=Material+Icons',
+        },
+      },
+
+      // JS tags
+      script: {
+        ldJson: {
+          type: 'application/ld+json',
+          innerHTML: '{ "@context": "http://schema.org" }',
+        },
+      },
+
+      // <html> attributes
+      htmlAttr: {
+        'xmlns:cc': 'http://creativecommons.org/ns#', // generates <html xmlns:cc="http://creativecommons.org/ns#">,
+        empty: undefined, // generates <html empty>
+      },
+
+      // <body> attributes
+      bodyAttr: {
+        'action-scope': 'xyz', // generates <body action-scope="xyz">
+        empty: undefined, // generates <body empty>
+      },
+
+      // <noscript> tags
+      noscript: {
+        default: 'This is content for browsers with no JS (or disabled JS)',
+      },
+    };
+    const meta = useMeta(metaData);
+
     const $q = useQuasar();
     const mode = useMode();
 
@@ -95,6 +158,7 @@ export default defineComponent({
     return {
       toggleTheme,
       scrollToTop,
+      meta,
     };
   },
 });

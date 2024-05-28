@@ -14,7 +14,7 @@ import { defineComponent } from 'vue';
           $q.platform.is.mobile ? 'margin-top: -50px' : 'margin-top: -100px'
         "
       >
-        <img src="profile-2.jpeg" />
+        <img src="profile-2.jpeg" alt="profile-image" />
       </q-avatar>
     </div>
     <TitleSectionVue :title="'Sobre mim'" />

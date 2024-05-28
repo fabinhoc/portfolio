@@ -12,6 +12,7 @@
         * Outros repositórios são privados de empresas parceiras.
       </p>
       <a
+        rel="nofollow"
         class="text-subtitle link text-accent"
         href="https://github.com/fabinhoc?tab=repositories"
         target="_blank"
