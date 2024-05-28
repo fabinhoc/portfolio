@@ -1,8 +1,8 @@
 {
   "name": "portfolio",
   "version": "0.0.1",
-  "description": "My portfolio",
-  "productName": "Fabio Cruz",
+  "description": "Profissional de tecnologia de informação com mais de uma década de experiência. Bacharelado em SI. Ampla experiência com desenvolvimento de software.",
+  "productName": "Fabio Cruz - Programador Fullstack",
   "author": "Fabio Cruz <fabinhocosta1202@gmail.com>",
   "private": true,
   "scripts": {
