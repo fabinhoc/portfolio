@@ -14,4 +14,4 @@ Disallow:
 User-agent: *
 Disallow:
 Disallow: /cgi-bin/
-Sitemap: https://www.fabiocruz.netlify.app//sitemap.xml
+Sitemap: https://www.fabiocruz.netlify.app/sitemap.xml
